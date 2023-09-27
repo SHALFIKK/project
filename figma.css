@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+ul {
+  list-style: none;
+}
+
+.horizontal-block {
+    text-align: justify;
+}
+.photo-container{
+    display: flex;
+}
+.photo-container img {
+  margin-right: 100px;
+}
+body{
+    background-color: #000000;
+}
+.page-container{
+    margin:130px;
+    margin-top: 50px;
+}
+.photo-container:nth-child(1){
+ margin-right: 373px;
+}
+.photo-container:nth-child(2){
+  margin-right: 207px;
+}
+.photo-container:nth-child(3){
+  margin-right: 14px;
+  width: 19px;
+  height: 19px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: #A8CF36;
+}
+.photo-container:nth-child(4){
+  margin-right: 109px;
+}
+.photo-container:nth-child(5){
+  margin-right: 24px;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 83px;
+}
+.logo img{
+  transition: all 2s;
+}
+.logo img:hover{
+  opacity: 0.5;
+}
+.logo2 img{
+  transition: all 3s;
+}
+.logo2 img:hover{
+  transform: rotate(360deg);
+}
+.elm img{
+  width: 11px;
+  height: 11px;
+}
+.active{
+  border: 2px solid #A8CF36;
+  border-radius: 50%;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 0px 24px;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+font-family: Druk Wide;
+font-size: 14px;
+font-style: italic;
+font-weight: 700;
+line-height: 11px;
+letter-spacing: -0.055em;
+text-align: left;
+color: aliceblue;
+text-decoration: none;
+transition: all 0.5s;
+font-family: "Roboto";
+}
+nav ul li a:hover{
+  color: #A8CF36;
+}
+.container-top{
+  display: flex;
+  column-gap: 46px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+.hover-scale:hover {
+transform: scale(1.2);
+}
+.hover-scale{
+  transition: 0.3s;
+}
+.gradient-text{
+  background-image: linear-gradient(to right,#43D137, #A9D137);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+}
+h2{
+  font-weight: 300;
+  font-family: "Roboto";
+}
+.size-text{
+  font-size: 96px;
+  text-align: center;
+}
+.calculator {
+  text-align: center;
+  width: fit-content;
+  padding-left: 26px;
+  margin: 10px;
+  border: 0;
+  border-radius: 1000px;
+  background: #252525;
+}
+
+.input-field {
+  background: transparent;
+  outline: none;
+  border: 0;
+  color: #FFFFFF;
+
+}
+
+
+.calculate-button {
+  background: linear-gradient(to right,#43D137, #A9D137);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 1000px;
+  padding: 26px 38px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background: linear-gradient(to right,#A9D137,#43D137); 
+}
